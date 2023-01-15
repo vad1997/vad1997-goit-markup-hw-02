@@ -1,0 +1,226 @@
+/* Variables */
+:root {
+  /* fonts */
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  /* colors */
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slave: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --light: #ffffff;
+  /* others */
+}
+
+/* Base styles */
+body {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Header styles */
+.header {
+}
+.header-nav {
+}
+.header-logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.header-logo-dark {
+  color: var(--navy-blue);
+}
+.header-menu {
+}
+.header-menu-item {
+}
+.header-menu-link {
+  font-weight: 500;
+  color: var(--navy-blue);
+}
+.header-contacts {
+  font-style: normal;
+}
+.header-contacts-list {
+}
+.header-contacts-item {
+}
+.header-contacts-link {
+  color: var(--slate);
+}
+
+/* Hero styles */
+.hero {
+  background-color: var(--navy-blue);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: calc(60 / 56);
+  text-align: center;
+  color: var(--light);
+}
+.hero-btn {
+  background-color: var(--iris);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+
+  color: var(--light);
+}
+
+/* Features styles */
+.features {
+}
+
+.features-title {
+}
+.features-list {
+}
+.features-item {
+}
+.features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: var(--navy-blue);
+}
+.features-text {
+}
+/* Benefits styles */
+
+.benefits {
+}
+.section {
+}
+.benefits-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--navy-blue);
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-pic {
+}
+
+/* Team styles */
+.team {
+}
+.section {
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+.team-list {
+}
+.team-card {
+}
+.team-avatar {
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.team-position {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* Portfolio */
+.portfolio {
+}
+.portfolio-title {
+}
+.portfolio-filter {
+}
+.portfolio-filter-item {
+}
+.portfolio-filter-btn {
+  font-family: inherit;
+}
+.portfolio-projects {
+}
+.portfolio-projects-card {
+}
+.porfolio-projects-img {
+}
+.portfolio-projects-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.portfolio-projects-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/* Footer */
+.footer {
+}
+.footer-logo {
+}
+
+.footer-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+
+  letter-spacing: 0.02em;
+  color: var(--cornflower);
+}
+.footer-logo-light {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  color: var(--cloud);
+}
