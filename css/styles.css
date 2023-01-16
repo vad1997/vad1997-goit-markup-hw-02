@@ -31,7 +31,9 @@ body {
 .link {
   text-decoration: none;
 }
-
+.list {
+  list-style: none;
+}
 /* Header styles */
 .header {
 }
@@ -87,8 +89,16 @@ body {
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.04em;
-
+  cursor: pointer;
   color: var(--light);
+}
+.curent:hover,
+.curent:focus {
+  background-color: var(--ocean);
+}
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
+  background-color: var(--ocean);
 }
 
 /* Features styles */
@@ -181,6 +191,8 @@ body {
 }
 .portfolio-filter-btn {
   font-family: inherit;
+  cursor: pointer;
+  background-color: var(--light);
 }
 .portfolio-projects {
 }
@@ -203,8 +215,19 @@ body {
 }
 /* Footer */
 .footer {
+  background-color: var(--navy-blue);
 }
 .footer-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
 }
 
 .footer-desc {
