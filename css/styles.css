@@ -55,7 +55,7 @@ body {
 }
 .header-menu-item {
 }
-.header-menu-link {
+.header-menu-link:hover .header-menu-link {
   font-weight: 500;
   color: var(--navy-blue);
 }
@@ -83,22 +83,31 @@ body {
 }
 .hero-btn {
   background-color: var(--iris);
-
+  color: var(--light);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(24 / 16);
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(--light);
 }
-.curent:hover,
-.curent:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--ocean);
 }
-.portfolio-filter-btn:hover,
-.portfolio-filter-btn:focus {
-  background-color: var(--ocean);
+.header-menu-link {
+  color: var(--navy-blue);
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--ocean);
+}
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--ocean);
+}
+.curent {
+  color: var(--ocean);
 }
 
 /* Features styles */
@@ -192,8 +201,15 @@ body {
 .portfolio-filter-btn {
   font-family: inherit;
   cursor: pointer;
-  background-color: var(--light);
+  color: var(--iris);
+  background-color: var(--cloud--);
 }
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
+  color: var(--light);
+  background-color: var(--ocean);
+}
+
 .portfolio-projects {
 }
 .portfolio-projects-card {
