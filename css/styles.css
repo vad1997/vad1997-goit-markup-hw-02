@@ -189,7 +189,7 @@ img {
   font-size: 20px;
   line-height: calc(24 / 20);
   color: var(--navy-blue);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .features-text {
 }
@@ -220,6 +220,7 @@ img {
 
 /* Team styles */
 .team {
+  background-color: var(--cloud);
 }
 .section {
 }
@@ -243,7 +244,9 @@ img {
 .team-avatar {
 }
 .team-list-wrapper {
-  padding: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: var(--light);
 }
 .team-name {
   font-weight: 500;
@@ -252,6 +255,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 .team-position {
   font-family: 'Roboto';
@@ -310,7 +314,7 @@ img {
 }
 .portfolio-projects-wrapper {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid --cornflower;
   border-top: none;
 }
 .portfolio-projects-subtitle {
